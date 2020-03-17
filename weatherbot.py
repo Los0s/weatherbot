@@ -3,8 +3,8 @@ import telebot
 import pyowm
 import random
 
-bot = telebot.TeleBot('1025831360:AAEHaoJAIbCVbq32io5j3y_DQZITqDTbu5g')
-owm = pyowm.OWM('3d1c8da9d74c3ff72dbbea1206ea9316', language = 'ru')
+bot = telebot.TeleBot(My token)
+owm = pyowm.OWM(My token, language = 'ru')
 
 randomlistone = ['кажется твоя мама хочет что бы ты одел шапку', 'достаточно холодно что бы никуда не идти', 'лучше одень шапку']
 randomlisttwo = ['отличная погода для прогулки', 'уже можно кушать мороженое', 'может съездим на шашлыки']
